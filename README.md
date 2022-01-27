@@ -32,7 +32,7 @@ This repo doesn't contains the `bin/` & `sysroot/` directory structures will not
 make setup        #Run to create this structure.
 ```
 
-To will compile, assemble, and link the code into `sysroot/kernel8.img`
+To compile, assemble, and link the code into `sysroot/kernel8.img`
 
 ```bash
 make
