@@ -26,7 +26,7 @@ We can check if it is installed by doing `qemu-system-aarch64 --version`
 
 **NOTE** : You should pass `--enable-languages=c,c++` to the GCC `configure` script. Make sure to add the install location to your `$PATH` if it isn't already.
 
-This repo doesn't contains the `bin/` & `sysroot/`directory structures will not be present. 
+This repo doesn't contains the `bin/` & `sysroot/` directory structures will not be present. 
 
 ```bash
 make setup        #Run to create this structure.
