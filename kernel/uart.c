@@ -19,7 +19,7 @@ void init_uart1() {
     *GPFSEL1 = r;
 
     *GPPUD = 0;
-    r = 150; while (r--) { asm volatile("nop"); }  // TODO: fix the horrendous code from the tutorial
+    r = 150; while (r--) { asm volatile("nop"); } 
     *GPPUDCLK0 = (1 << 14) | (1 << 15);
     r = 150; while (r--) { asm volatile("nop"); }
     *GPPUDCLK0 = 0;
