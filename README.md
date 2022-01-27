@@ -52,7 +52,7 @@ To test this code on QEMU
 qemu-system-aarch64 -M raspi3b -serial null -serial stdio -kernel bin/rxchit.elf
 ```
 
-> ![](/images/2022-01-27-11-41-00-image.png)
+> ![](images/2022-01-27-11-41-00-image.png)
 
 To test on actual hardware
 
