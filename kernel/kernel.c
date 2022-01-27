@@ -3,9 +3,7 @@
 #include "kernel/gpio.h"
 #include "kernel/uart.h"
 
-/*
-    All it does is call the init_uart function, print "Hello, World!", and print out any character you type
-*/
+// All it does is call the init_uart function, print "Hello, World!", and print out any character you type
 
 void kernel_main(uint64_t dtb_ptr32, uint64_t x1, uint64_t x2, uint64_t x3)
 // atags, and pointer to the atags
