@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+# Kernel Module Compile Results
+bin/
+sysroot/
+
 # Object files
 *.o
 *.ko
@@ -42,11 +46,3 @@
 *.idb
 *.pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
